@@ -8,11 +8,18 @@ header {
 }
 
 header>a {
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-decoration: none;
-    color: #D8E9F0;
-    font-family: sans-serif;
+    color: #000000;
     font-weight: 700;
+    background-image: linear-gradient(to right, #4b5669, #D8E9F0);
+    padding: 2px 2vh;
+    font-family: cursive;
+    border-radius: 2px;
+}
+
+header>a>span {
+    color: #ff0000;
 }
 
 header>nav {
@@ -24,7 +31,7 @@ header>nav {
 header>nav>a {
     font-size: 1.5vw;
     text-decoration: none;
-    color: #D8E9F0;
+    color: #33425B;
     font-family: "Nunito", sans-serif;
     font-weight: 700;
 }
@@ -44,12 +51,13 @@ header>nav>a:hover {
 
     header>nav>a {
         font-size: 2.4vw;
+        color: #fff;
     }
 }
 
 @media (max-width:400px) {
     header {
-        padding: 5vh 6vmax;
+        padding: 5vh 4vmax;
     }
 
     header>a {
@@ -57,11 +65,11 @@ header>nav>a:hover {
     }
 
     header>nav {
-        gap: 4vw;
+        gap: 3vw;
     }
 
     header>nav>a {
-        font-size: 3vw;
+        font-size: 3.5vw;
         font-weight: 500;
     }
 

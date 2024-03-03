@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
 import { Button, Stack } from "@mui/material";
-import vehicle from "../assets/dth-drilling-machine.png";
+import vehicle from "../assets/borewell-malappuram2-1280x720.jpg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -11,10 +11,10 @@ const Home = () => {
         <h1>Patel </h1>
         <h1>Borewells </h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-          facilis dolore nam possimus autem porro in, quisquam doloribus natus
-          asperiores optio enim beatae deserunt perferendis eaque fuga corporis,
-          sit veritatis.
+          Empowering India's agriculture and households, our tubewell business
+          guarantees a steady supply of vital water for flourishing crops and
+          daily needs. We are dedicated to being a reliable lifeline, supporting
+          communities and contributing to India's growth and prosperity.
         </p>
         <Stack direction="row" spacing={{ xs: 2, md: 4 }}>
           <Button variant="contained" color="error" size="medium">
