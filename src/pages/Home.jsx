@@ -1,7 +1,9 @@
 import React from "react";
 import "../styles/Home.css";
 import { Button, Stack } from "@mui/material";
-import vehicle from "../assets/borewell-malappuram2-1280x720.jpg";
+import vehicle from "../assets/pate-underwater-drilling.avif";
+import vehicle2 from "../assets/water-drilling-machine.webp";
+import vehicle3 from "../assets/borewell-drilling-machine.avif";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -27,6 +29,8 @@ const Home = () => {
       </section>
       <section className="right">
         <img src={vehicle} alt="Vehicle" />
+        <img src={vehicle2} alt="Vehicle" />
+        <img src={vehicle3} alt="Vehicle" />
       </section>
     </main>
   );

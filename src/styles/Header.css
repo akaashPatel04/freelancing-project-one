@@ -1,25 +1,25 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 8vh 12vmax;
+    align-items: center;
+    padding: 0 12vmax;
     position: absolute;
     width: 100vw;
     z-index: 5;
+    background-color: #000000af;
+    height: 70px;
 }
 
 header>a {
     font-size: 2vw;
     text-decoration: none;
-    color: #000000;
+    color: #F33535;
     font-weight: 700;
-    background-image: linear-gradient(to right, #4b5669, #D8E9F0);
-    padding: 2px 2vh;
-    font-family: cursive;
-    border-radius: 2px;
+    font-family: sans-serif;
 }
 
 header>a>span {
-    color: #ff0000;
+    color: #1565C0;
 }
 
 header>nav {
@@ -31,7 +31,7 @@ header>nav {
 header>nav>a {
     font-size: 1.5vw;
     text-decoration: none;
-    color: #33425B;
+    color: #D8E9F0;
     font-family: "Nunito", sans-serif;
     font-weight: 700;
 }
@@ -42,7 +42,7 @@ header>nav>a:hover {
 
 @media (max-width:1140px) {
     header {
-        padding: 7vh 6vmax;
+        padding: 0 6vmax;
     }
 
     header>a {
@@ -57,7 +57,8 @@ header>nav>a:hover {
 
 @media (max-width:400px) {
     header {
-        padding: 5vh 4vmax;
+        padding: 0 4vmax;
+        height: 50px;
     }
 
     header>a {
