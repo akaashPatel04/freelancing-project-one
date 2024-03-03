@@ -1,0 +1,133 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #33425B;
+    padding: 0 0 0 6vw;
+    height: 100vh;
+}
+
+main>.left {
+    height: 100%;
+    width: 40vw;
+    padding-top: 24vh;
+}
+
+
+main>.left>h1 {
+    font-size: 4vw;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+main>.left>p {
+    font-size: 1.4vw;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: thin;
+    margin: 6vh 0;
+}
+
+main>.left>div>button>a {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+main>.right {
+    background-color: #29252C;
+    height: 100%;
+    width: 60vw;
+    border-bottom-left-radius: 20vw;
+    overflow: hidden;
+    padding-top: 24vh;
+    padding-left: 8vw;
+}
+
+
+main>.right>img {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+
+@media (max-width:1140px) {
+    main {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0 0;
+        height: 100vh;
+    }
+
+    main>.left {
+        height: 50%;
+        width: 100%;
+        padding: 20vh 4vw 0 10vw;
+    }
+
+    main>.left>h1 {
+        font-size: 6vw;
+    }
+
+    main>.left>p {
+        font-size: 2.5vw;
+        margin: 4vh 0;
+    }
+
+    main>.right {
+        background-color: transparent;
+        height: 50%;
+        width: 100%;
+        border-bottom-left-radius: 0;
+        padding-top: 8vh;
+        padding-left: 14vw;
+    }
+}
+
+@media (max-width:770px) {
+    main {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0 0;
+        height: 100vh;
+    }
+
+    main>.left {
+        height: 50%;
+        width: 100%;
+        padding: 16vh 2vw 0 8vw;
+    }
+
+    main>.left>h1 {
+        font-size: 8vw;
+    }
+
+    main>.left>p {
+        font-size: 3vw;
+        margin: 4vh 0;
+    }
+
+    main>.left>div>button>a {
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    main>.right {
+        background-color: transparent;
+        height: 50%;
+        width: 100%;
+        border-bottom-left-radius: 0;
+        padding-top: 4vh;
+        padding-left: 0vw;
+    }
+
+    main>.right>img {
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+}
